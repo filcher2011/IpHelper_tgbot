@@ -5,7 +5,7 @@ import telebot as tb
 import requests as rq
 
 #Writting token
-bot = tb.TeleBot("6879475740:AAHD5rocGXOSJvmbz75JCbpjWjR_ohMlHpU")
+bot = tb.TeleBot("YOUR-TOKEN")
 
 #Create function
 @bot.message_handler(commands=['start'])
